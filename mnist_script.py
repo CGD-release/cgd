@@ -1,5 +1,5 @@
 import numpy as np
-from CGD_BDP_torch import *
+from CGD import *
 
 data = np.load("./mnist_train.npz")
 train_imgs = data['arr_0']
