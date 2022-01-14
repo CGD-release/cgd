@@ -1,5 +1,5 @@
 import numpy as np
-from CGD_BDP_torch import *
+from CGD import *
 
 data = np.load("./cifar_resnet56.npz")
 
